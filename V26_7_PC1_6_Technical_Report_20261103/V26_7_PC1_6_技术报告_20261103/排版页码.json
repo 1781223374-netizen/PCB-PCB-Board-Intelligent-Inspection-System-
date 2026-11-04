@@ -1,0 +1,158 @@
+[
+  {
+    "section": "V26.7 与 PC 1.6 技术报告",
+    "page": 1
+  },
+  {
+    "section": "版本范围与功能边界",
+    "page": 3
+  },
+  {
+    "section": "系统结构与图像路径",
+    "page": 4
+  },
+  {
+    "section": "原生1080p与硬件接口",
+    "page": 5
+  },
+  {
+    "section": "FPGA菜单功能一览",
+    "page": 6
+  },
+  {
+    "section": "按键与OSD状态说明",
+    "page": 7
+  },
+  {
+    "section": "图像算法一至四",
+    "page": 8
+  },
+  {
+    "section": "图像算法五至八",
+    "page": 9
+  },
+  {
+    "section": "曝光降噪照明与颜色校正",
+    "page": 10
+  },
+  {
+    "section": "TF卡拍照与文件完整性",
+    "page": 11
+  },
+  {
+    "section": "TF回放与传输提速",
+    "page": 12
+  },
+  {
+    "section": "本地手动升降与控制权",
+    "page": 13
+  },
+  {
+    "section": "FPGA本地自动对焦原理",
+    "page": 14
+  },
+  {
+    "section": "本地对焦性能与异常处理",
+    "page": 15
+  },
+  {
+    "section": "启动保护与诊断显示",
+    "page": 16
+  },
+  {
+    "section": "同一bitstream的三台设备身份",
+    "page": 17
+  },
+  {
+    "section": "图传协议带宽与接收机制",
+    "page": 18
+  },
+  {
+    "section": "PC程序功能一览",
+    "page": 19
+  },
+  {
+    "section": "PC日常操作与结果界面",
+    "page": 20
+  },
+  {
+    "section": "模板标定与良品建模",
+    "page": 21
+  },
+  {
+    "section": "几何配准与传统灰度差分",
+    "page": 22
+  },
+  {
+    "section": "颜色兼容模式的三条证据链",
+    "page": 23
+  },
+  {
+    "section": "细划痕定位与专用确认",
+    "page": 24
+  },
+  {
+    "section": "一块板的时序证据与四种结论",
+    "page": 25
+  },
+  {
+    "section": "板边孔洞与正常波动抑制",
+    "page": 26
+  },
+  {
+    "section": "PC观察增强与原图对照",
+    "page": 27
+  },
+  {
+    "section": "PC远程升降与PC自动对焦",
+    "page": 28
+  },
+  {
+    "section": "双向控制协议与通信中断",
+    "page": 29
+  },
+  {
+    "section": "文件记录导出与数据隔离",
+    "page": 30
+  },
+  {
+    "section": "实拍实验一 划痕帧A",
+    "page": 31
+  },
+  {
+    "section": "实拍实验二 划痕帧B",
+    "page": 32
+  },
+  {
+    "section": "实拍实验三 正常板",
+    "page": 33
+  },
+  {
+    "section": "清晰度与受控色差实验",
+    "page": 34
+  },
+  {
+    "section": "PC1.6可执行程序的三路回放",
+    "page": 35
+  },
+  {
+    "section": "历史异物观察与当前适用范围",
+    "page": 36
+  },
+  {
+    "section": "资源时序与界面空间",
+    "page": 37
+  },
+  {
+    "section": "完整操作流程与故障排查",
+    "page": 38
+  },
+  {
+    "section": "验证范围与后续验收",
+    "page": 39
+  },
+  {
+    "section": "技术来源与版本标识",
+    "page": 40
+  }
+]

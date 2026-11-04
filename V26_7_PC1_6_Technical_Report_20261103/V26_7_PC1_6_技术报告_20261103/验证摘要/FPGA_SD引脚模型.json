@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "hardware_tested": false,
+  "scope": "actual production SD controller and independent pin-level SDHC target;14ns delayed MISO,exact data,CRC/status/busy/timeouts; fixed model latency is not real card performance",
+  "scenarios": [
+    {
+      "fast": 0,
+      "busy_ns": 0,
+      "write_cycles": 113048,
+      "read_cycles": 106704
+    },
+    {
+      "fast": 1,
+      "busy_ns": 0,
+      "write_cycles": 95960,
+      "read_cycles": 89968
+    },
+    {
+      "fast": 0,
+      "busy_ns": 100000,
+      "write_cycles": 158744,
+      "read_cycles": 106704
+    },
+    {
+      "fast": 1,
+      "busy_ns": 100000,
+      "write_cycles": 141712,
+      "read_cycles": 89968
+    }
+  ],
+  "source_hashes": {
+    "v16\\rtl\\photo\\sd_spi_block.v": "18a11228825c08f330e1775d0f74f1d4b327a58c85e16db6a42d3804a3c9f9c3",
+    "sim\\tb_sd_protocol.sv": "9aaa36e9ff151446caaf43ac27b82f4c265c129d3a9bd7b47b58c39443782e43"
+  }
+}

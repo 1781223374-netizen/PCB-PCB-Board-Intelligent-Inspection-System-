@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "scope": "same recorded input through unchanged PC1.6 functions; no new independent dataset",
+  "input_sha256": "9c13d08a7304c3c124e506c43cd5556a8948343260aff6935601de7e1ff1b049",
+  "parameters": {
+    "surface_mode": true,
+    "scratch_min_length": 18,
+    "scratch_response": 2.5,
+    "min_area": 120,
+    "small_structure_response": 12,
+    "edge_margin": 12
+  },
+  "regions": [
+    {
+      "kind": "scratch",
+      "box": [
+        616.2387084960938,
+        655.5868530273438,
+        628.0149536132812,
+        678.3984985351562
+      ],
+      "area": 72,
+      "peak": 7.05,
+      "length": 24.21
+    }
+  ]
+}

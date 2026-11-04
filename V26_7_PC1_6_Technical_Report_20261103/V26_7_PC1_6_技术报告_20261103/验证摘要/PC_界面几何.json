@@ -1,0 +1,67 @@
+[
+  {
+    "window": [
+      1440,
+      960
+    ],
+    "view": [
+      21,
+      159,
+      1044,
+      700
+    ],
+    "parameters_visible": true
+  },
+  {
+    "window": [
+      1440,
+      852
+    ],
+    "view": [
+      21,
+      159,
+      1044,
+      592
+    ],
+    "parameters_visible": true
+  },
+  {
+    "window": [
+      1280,
+      800
+    ],
+    "view": [
+      21,
+      159,
+      884,
+      540
+    ],
+    "parameters_visible": true
+  },
+  {
+    "window": [
+      1040,
+      720
+    ],
+    "view": [
+      21,
+      159,
+      644,
+      460
+    ],
+    "parameters_visible": true
+  },
+  {
+    "window": [
+      1040,
+      680
+    ],
+    "view": [
+      21,
+      159,
+      644,
+      420
+    ],
+    "parameters_visible": true
+  }
+]

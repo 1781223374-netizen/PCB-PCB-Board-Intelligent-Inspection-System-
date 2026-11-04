@@ -1,0 +1,313 @@
+{
+  "result": "PASS",
+  "scope": "packaged 1920x1080 RGB565 SCAM UDP loopback; all three always enabled, three queued independent inspections; shortened test timing only; no live WLAN test",
+  "cases": [
+    {
+      "name": "preview",
+      "result": "PASS",
+      "status": {
+        "version": "1.6.0",
+        "bind": "127.0.0.1",
+        "opencv_threads": 2,
+        "detector_pid": null,
+        "detector_info": {},
+        "inspection_schedule": "serial",
+        "queued": [],
+        "enabled": [
+          1,
+          2,
+          3
+        ],
+        "channels": {
+          "1": {
+            "version": "1.6.0",
+            "mode": "preview",
+            "template": "None",
+            "received": {
+              "packets": 41243,
+              "bytes": 59379936,
+              "frames": 13,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 67.863552,
+              "fps": 2.0,
+              "last_packet": 42986.25,
+              "last_frame": 42985.718,
+              "sender": "127.0.0.1:64453",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 17552,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 0,
+            "processing_ms": 0.0,
+            "verdict": "仅预览 · 点击“开始检测”进行新一块板的检测",
+            "message": "正在监听 127.0.0.1:22000。若端口被占用，请先关闭旧接收程序。",
+            "session": null,
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          },
+          "2": {
+            "version": "1.6.0",
+            "mode": "preview",
+            "template": "None",
+            "received": {
+              "packets": 39595,
+              "bytes": 57006816,
+              "frames": 13,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 67.863552,
+              "fps": 2.0,
+              "last_packet": 42986.343,
+              "last_frame": 42985.906,
+              "sender": "127.0.0.1:61560",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 11572,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 0,
+            "processing_ms": 0.0,
+            "verdict": "仅预览 · 点击“开始检测”进行新一块板的检测",
+            "message": "正在监听 127.0.0.1:22001。若端口被占用，请先关闭旧接收程序。",
+            "session": null,
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          },
+          "3": {
+            "version": "1.6.0",
+            "mode": "preview",
+            "template": "None",
+            "received": {
+              "packets": 38298,
+              "bytes": 55139136,
+              "frames": 13,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 66.79483464593334,
+              "fps": 1.9685039370156556,
+              "last_packet": 42986.265,
+              "last_frame": 42986.265,
+              "sender": "127.0.0.1:61561",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 14156,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 0,
+            "processing_ms": 0.0,
+            "verdict": "仅预览 · 点击“开始检测”进行新一块板的检测",
+            "message": "正在监听 127.0.0.1:22002。若端口被占用，请先关闭旧接收程序。",
+            "session": null,
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          }
+        }
+      },
+      "evidence": "verification\\exe_1793628505011066400\\preview"
+    },
+    {
+      "name": "concurrent",
+      "result": "PASS",
+      "status": {
+        "version": "1.6.0",
+        "bind": "127.0.0.1",
+        "opencv_threads": 2,
+        "detector_pid": 17384,
+        "detector_info": {
+          "pid": 17384,
+          "prepared": true,
+          "threads": 8,
+          "logical_processors": 16,
+          "priority": "above_normal"
+        },
+        "inspection_schedule": "serial",
+        "queued": [],
+        "enabled": [
+          1,
+          2,
+          3
+        ],
+        "channels": {
+          "1": {
+            "version": "1.6.0",
+            "mode": "finished",
+            "template": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\examples\\回放验证模板.npz",
+            "received": {
+              "packets": 191490,
+              "bytes": 275695680,
+              "frames": 65,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 66.794834645455,
+              "fps": 1.9685039370015585,
+              "last_packet": 43023.546,
+              "last_frame": 43023.546,
+              "sender": "127.0.0.1:65275",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 16804,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 4,
+            "processing_ms": 516.6319999989355,
+            "verdict": "本板最终：NG · 确认 1 处异常 · 结果画面已冻结",
+            "message": "本板检测完成。放入下一块板后，再次点击“开始检测”。",
+            "session": {
+              "id": "9ace2db4b0eb",
+              "state": "ng",
+              "valid_frames": 4,
+              "valid_seconds": 2.1089999999967404,
+              "confirmed": [
+                {
+                  "box": [
+                    616.2387084960938,
+                    655.5868530273438,
+                    628.0149536132812,
+                    678.3984985351562
+                  ],
+                  "canonical_box": [
+                    893.0,
+                    325.0,
+                    904.0,
+                    347.0
+                  ],
+                  "span_s": 2.109,
+                  "hits": 4,
+                  "area": 72,
+                  "peak": 7.05,
+                  "kind": "scratch",
+                  "length": 24.21
+                }
+              ]
+            },
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          },
+          "2": {
+            "version": "1.6.0",
+            "mode": "finished",
+            "template": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\examples\\回放验证模板.npz",
+            "received": {
+              "packets": 188544,
+              "bytes": 271454208,
+              "frames": 64,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 66.794834645455,
+              "fps": 1.9685039370015585,
+              "last_packet": 43023.593,
+              "last_frame": 43023.593,
+              "sender": "127.0.0.1:65276",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 21996,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 9,
+            "processing_ms": 403.9833999995608,
+            "verdict": "本板最终：OK · 结果画面已冻结",
+            "message": "本板检测完成。放入下一块板后，再次点击“开始检测”。",
+            "session": {
+              "id": "970130437730",
+              "state": "ok",
+              "valid_frames": 9,
+              "valid_seconds": 8.35899999999674,
+              "confirmed": []
+            },
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          },
+          "3": {
+            "version": "1.6.0",
+            "mode": "finished",
+            "template": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\examples\\回放验证模板.npz",
+            "received": {
+              "packets": 188544,
+              "bytes": 271454208,
+              "frames": 64,
+              "dropped": 0,
+              "invalid": 0,
+              "duplicates": 0,
+              "mbps": 66.86064236457037,
+              "fps": 1.9704433497548246,
+              "last_packet": 43023.593,
+              "last_frame": 43023.593,
+              "sender": "127.0.0.1:65277",
+              "listening": true,
+              "ignored": 0,
+              "error": "",
+              "servo_status": null,
+              "servo_invalid": 0,
+              "receiver_pid": 20528,
+              "transport": "process_shared_memory"
+            },
+            "inspected_frames": 4,
+            "processing_ms": 1492.3287000056007,
+            "verdict": "本板最终：NG · 确认 1 处异常 · 结果画面已冻结",
+            "message": "本板检测完成。放入下一块板后，再次点击“开始检测”。",
+            "session": {
+              "id": "aac7242bae15",
+              "state": "ng",
+              "valid_frames": 4,
+              "valid_seconds": 3.5,
+              "confirmed": [
+                {
+                  "box": [
+                    616.267333984375,
+                    654.4934692382812,
+                    628.0467529296875,
+                    678.3412475585938
+                  ],
+                  "canonical_box": [
+                    893.0,
+                    325.0,
+                    904.0,
+                    348.0
+                  ],
+                  "span_s": 3.5,
+                  "hits": 4,
+                  "area": 69,
+                  "peak": 7.0,
+                  "kind": "scratch",
+                  "length": 24.76
+                }
+              ]
+            },
+            "stage_needs_template": false,
+            "focus_busy": false,
+            "servo_armed_by_pc": false
+          }
+        }
+      },
+      "evidence": "verification\\exe_1793628505011066400\\concurrent"
+    }
+  ],
+  "exe_sha256": "53ea14ee7d41e4954a1ef2c7051f6af51e9bb34e391d9e453f55d221c6af55d2"
+}

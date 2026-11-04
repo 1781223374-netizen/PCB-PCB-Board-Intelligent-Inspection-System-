@@ -1,0 +1,68 @@
+set_ippin_assignment { ddr_ck_p[0]         } {LOCATION = H3; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_ck_n[0]         } {LOCATION = G3; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_ras_n[0]        } {LOCATION = G1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_cas_n[0]        } {LOCATION = F1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_we_n[0]         } {LOCATION = E1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_reset_n[0]      } {LOCATION = E2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_cke[0]          } {LOCATION = K4; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_cs_n[0]         } {LOCATION = J1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_odt[0]          } {LOCATION = J2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_ba[0]           } {LOCATION = H2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_ba[1]           } {LOCATION = L3; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_ba[2]           } {LOCATION = D1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[0]         } {LOCATION = C2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[1]         } {LOCATION = K2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[2]         } {LOCATION = B2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[3]         } {LOCATION = G2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[4]         } {LOCATION = M1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[5]         } {LOCATION = F3; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[6]         } {LOCATION = K3; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[7]         } {LOCATION = D2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[8]         } {LOCATION = L1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[9]         } {LOCATION = B1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[10]        } {LOCATION = H5; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[11]        } {LOCATION = J4; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[12]        } {LOCATION = K1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_addr[13]        } {LOCATION = A1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dqs_p[0]        } {LOCATION = R3; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_dqs_n[0]        } {LOCATION = R2; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_dqs_p[1]        } {LOCATION = W6; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_dqs_n[1]        } {LOCATION = W5; IOSTANDARD = DIFF_SSTL135;}
+set_ippin_assignment { ddr_dq[0]           } {LOCATION = U3; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[1]           } {LOCATION = W1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[2]           } {LOCATION = T1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[3]           } {LOCATION = Y2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[4]           } {LOCATION = U2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[5]           } {LOCATION = W2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[6]           } {LOCATION = U1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[7]           } {LOCATION = V2; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[8]           } {LOCATION = V5; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[9]           } {LOCATION = T5; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[10]          } {LOCATION = AA6; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[11]          } {LOCATION = T4; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[12]          } {LOCATION = U6; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[13]          } {LOCATION = R6; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[14]          } {LOCATION = Y6; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dq[15]          } {LOCATION = T6; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dm[0]           } {LOCATION = Y1; IOSTANDARD = SSTL135;}
+set_ippin_assignment { ddr_dm[1]           } {LOCATION = U5; IOSTANDARD = SSTL135;}
+
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/dx_byte[0]$dx_byte_used$u_ddrphy_dx_byte_wrapper/u_ddrphy_byte} {LOCATION = X57Y30Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/dx_byte[1]$dx_byte_used$u_ddrphy_dx_byte_wrapper/u_ddrphy_byte} {LOCATION = X57Y10Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[0]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte} {LOCATION = X57Y50Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[1]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte} {LOCATION = X57Y60Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[2]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte} {LOCATION = X57Y70Z0;}
+
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst} {LOCATION = X57Y40Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst} {LOCATION = X57Y79Z0;}
+
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_mlclk_1} {LOCATION = X57Y59Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_mlclk_2} {LOCATION = X57Y59Z1;}
+
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[0]$u_ioclk_0} {LOCATION = X57Y59Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[0]$u_ioclk_1} {LOCATION = X57Y59Z1;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[1]$u_ioclk_0} {LOCATION = X57Y19Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[1]$u_ioclk_1} {LOCATION = X57Y19Z1;}
+
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/bkref[0]$u_ddrphy_bankref} {LOCATION = X57Y19Z0;}
+set_ipinst_assignment {ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/bkref[1]$u_ddrphy_bankref} {LOCATION = X57Y59Z0;}

@@ -1,0 +1,59 @@
+{
+  "result": "PASS",
+  "hardware_tested": false,
+  "scope": "paired actual AF RTL with logical50fps/noisy scene and scaled mechanical timing; actual production SPI edge/byte measurements; not optical/card stopwatch measurements",
+  "autofocus": [
+    {
+      "peak_us": 810,
+      "baseline_ms": 49833,
+      "new_ms": 28413,
+      "improvement_percent": 43.0,
+      "baseline_moves": 59,
+      "new_moves": 38
+    },
+    {
+      "peak_us": 995,
+      "baseline_ms": 49093,
+      "new_ms": 27673,
+      "improvement_percent": 43.6,
+      "baseline_moves": 59,
+      "new_moves": 38
+    },
+    {
+      "peak_us": 1470,
+      "baseline_ms": 47193,
+      "new_ms": 25773,
+      "improvement_percent": 45.4,
+      "baseline_moves": 59,
+      "new_moves": 38
+    },
+    {
+      "peak_us": 1835,
+      "baseline_ms": 45733,
+      "new_ms": 24313,
+      "improvement_percent": 46.8,
+      "baseline_moves": 59,
+      "new_moves": 38
+    },
+    {
+      "peak_us": 2185,
+      "baseline_ms": 44333,
+      "new_ms": 22913,
+      "improvement_percent": 48.3,
+      "baseline_moves": 59,
+      "new_moves": 38
+    }
+  ],
+  "spi": [
+    "# SD_BYTE FAST=0 HALF=3 BYTES=512 CYCLES=25088 MIN_NS=26.142000 MAX_NS=26.142000",
+    "# SD_BYTE FAST=1 HALF=3 BYTES=512 CYCLES=20992 MIN_NS=17.428000 MAX_NS=26.142000",
+    "# SD_BYTE FAST=1 HALF=232 BYTES=4 CYCLES=14852 MIN_NS=2021.648000 MAX_NS=2021.648000"
+  ],
+  "source_hashes": {
+    "rtl\\focus\\focus_controller.v": "945a28d0e26e3ea77574495217d4fed9df3cb9838eb5d5d9a27e2d7c2f627a1e",
+    "reference\\focus_controller_v26_6_1.v": "ea425c8b095831f75cf30c348099b35ec142c8ff68e3c61fc2f37149f9cdabb0",
+    "v16\\rtl\\photo\\sd_spi_block.v": "18a11228825c08f330e1775d0f74f1d4b327a58c85e16db6a42d3804a3c9f9c3",
+    "sim\\tb_focus_speed.sv": "f75429e5fe8ce47890b383a0b6a51c3a9a119a4c1752a8ea556f3554084b2720",
+    "sim\\tb_sd23.sv": "6e0ed0a95c30660b85e9b0a227c3647f30d479bace6a63b52dcd2c9e7f3b3bef"
+  }
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "file": "images/01_pc16_live.png",
+    "bytes": 2784220,
+    "sha256": "ef4d25450c910889d2a49f1e550d2fa146e4da94fd0bf83e55516dbf24151883"
+  },
+  {
+    "file": "images/02_pc16_color.png",
+    "bytes": 1864240,
+    "sha256": "93d5e93a55af575a2433787607ef90edf0a966f1e0e264385454f65cafd2d16c"
+  },
+  {
+    "file": "images/03_pc16_invalid.png",
+    "bytes": 2309298,
+    "sha256": "4212e7c84df37c5048a92a649b3bd27bd83edc957c7701ffe23e8963ccd4d134"
+  },
+  {
+    "file": "images/04_legacy_false.png",
+    "bytes": 2626802,
+    "sha256": "ad92bb1b49f200132695eb2e1cf39bfa4ebb00af5d6b4187341c18d3f1d72580"
+  },
+  {
+    "file": "images/05_fpga_old_actual.png",
+    "bytes": 1188091,
+    "sha256": "b7d473a2357cc0f60b3aeee73af08b4b3dfc769ad68e3b1b12d7cc7393e5ae8e"
+  },
+  {
+    "file": "images/chart_af.svg",
+    "bytes": 7421,
+    "sha256": "479231adf41719c226726d082f1dbc5e70a61f3f8db8be4dda4365b514d9c46a"
+  },
+  {
+    "file": "images/chart_ui.svg",
+    "bytes": 1826,
+    "sha256": "660a3616ebb47e51035bd6471fab31dd90e26eb71f9f1edb12ab1591d9b26e86"
+  },
+  {
+    "file": "images/compare_normal.png",
+    "bytes": 688111,
+    "sha256": "846aa191459b0aeecae3f0c8dab511cabe424ca1fb183e269a82f465f58282d2"
+  },
+  {
+    "file": "images/compare_scratch_a.png",
+    "bytes": 701951,
+    "sha256": "8fa31e5f09a353780720aa59660a87deb42b79070426f5e7854027c23bc08743"
+  },
+  {
+    "file": "images/compare_scratch_b.png",
+    "bytes": 702144,
+    "sha256": "7bc27c5ecc104a31ff2824607b03bffea4a6e150132f68cf82f35f65062fb2ff"
+  },
+  {
+    "file": "images/comparison_original.png",
+    "bytes": 2074208,
+    "sha256": "703f0eadbeba8b96e3320da32bf46b83ec1fcaabf05e8ee6675c5708e591a71c"
+  },
+  {
+    "file": "images/controlled_color.png",
+    "bytes": 565721,
+    "sha256": "07b26c1b32c4083826dfa2e6d9f736b5aa8e554a0c227e095fb12430896646b7"
+  },
+  {
+    "file": "images/coverage_mask.png",
+    "bytes": 4881,
+    "sha256": "4ffa06f8704f2c64a1b01ac06cfb8348a0e6b4a7946a751f5caa5eb3799637b5"
+  },
+  {
+    "file": "images/coverage_overlay.png",
+    "bytes": 2173181,
+    "sha256": "0a5fef3bfb3c291b9f85b131951fc7d6d0e02f1134996c7f5abb114a5e7e6614"
+  },
+  {
+    "file": "images/diagram_arch.png",
+    "bytes": 214690,
+    "sha256": "43bcb2fc9a60f224c20eee5d17a91347b6be6e3a3ec158b7bb98976c69aad608"
+  },
+  {
+    "file": "images/diagram_fpga_menu.png",
+    "bytes": 326950,
+    "sha256": "37a793acb1ccaadb5c2ea770bb10093f6bccc1c3fdc44dc2b273cc92b2ec7543"
+  },
+  {
+    "file": "images/diagram_pc_menu.png",
+    "bytes": 260006,
+    "sha256": "aad1387b7bec7aeeef54f5e58b577d1e378a73899c5b13eade53086849034301"
+  },
+  {
+    "file": "images/menu_capture_storage.png",
+    "bytes": 7672,
+    "sha256": "0346bca34d5e7b8f47e9e903f5a3329a084fbe006c9f6335d43846ee51515021"
+  },
+  {
+    "file": "images/menu_display_settings.png",
+    "bytes": 7829,
+    "sha256": "e7d4d8a277b8c37967297150d8c9207abccd39451023de6adb56a5bc889a61b9"
+  },
+  {
+    "file": "images/menu_focus_menu.png",
+    "bytes": 7644,
+    "sha256": "55e03448b5f91156f34b0e52ec2d724af9ac8b604fa005ef2704d0c27a40011f"
+  },
+  {
+    "file": "images/menu_image_algorithms.png",
+    "bytes": 9015,
+    "sha256": "5b6de477d79ff22d61aaff5f23ab206d61f6a4084196054db7c5ad9b64128fe8"
+  },
+  {
+    "file": "images/menu_lift_menu.png",
+    "bytes": 7136,
+    "sha256": "9c54b15597dd16fefee836b02923a998c1d2cc20822f779a4530731a8ce4e9c7"
+  },
+  {
+    "file": "images/menu_main_menu.png",
+    "bytes": 8583,
+    "sha256": "9b64ad0b27440b4e1500c5c53610e5b0957f01e32e47ff859ca5c510d1f12eb0"
+  },
+  {
+    "file": "images/menu_manual_light.png",
+    "bytes": 7213,
+    "sha256": "3579f44c61b89d63b9ef4db410ade4f553e9a1350e2f54232fbefb9e2b555091"
+  },
+  {
+    "file": "images/normal_raw.png",
+    "bytes": 2026085,
+    "sha256": "20f4745f9109df7c39965da6c391fa186791cc03f182810c4d18762dc2d15b78"
+  },
+  {
+    "file": "images/pc16_expanded.png",
+    "bytes": 796337,
+    "sha256": "f55442950f671c873d1299daeb4dc28c2a15f0e9c87cc2dc00e58d71a49a9ad1"
+  },
+  {
+    "file": "images/pc16_three_replay.png",
+    "bytes": 283233,
+    "sha256": "bec5e9fe4b5858656fb3bbf48e09f6e79ffaf71751ce491571b177ddb063fbc9"
+  },
+  {
+    "file": "images/pc_enhance_atlas.png",
+    "bytes": 2703437,
+    "sha256": "8560e34bbb7f50d85f9cf835ca8ea66b30bc37909d0d12d3a97ca424c9d5867c"
+  },
+  {
+    "file": "images/rtl_capture_storage.png",
+    "bytes": 1096799,
+    "sha256": "cc6855661383213b5432eb6ffc44f5776b105aac94e763ae3c65144523012f7b"
+  },
+  {
+    "file": "images/rtl_display_settings.png",
+    "bytes": 1097001,
+    "sha256": "23efb824493286d90f4d2a0ca66db061c966b69521d7dd69fce7b8623c6d9317"
+  },
+  {
+    "file": "images/rtl_focus_menu.png",
+    "bytes": 1095562,
+    "sha256": "0de16540103a919b8163242c3d79e79032a91f8ea027ab6b305cc5b8469c75fa"
+  },
+  {
+    "file": "images/rtl_image_algorithms.png",
+    "bytes": 1098481,
+    "sha256": "368b7a2c693dfe6430dc6b8cd9e1c71c60951444b9a72b172edac701fefff081"
+  },
+  {
+    "file": "images/rtl_lift_menu.png",
+    "bytes": 1096154,
+    "sha256": "8c4c1771cb9d2ab5272a623c3db1d51eee8130beaee47ba03050b3d71c05e276"
+  },
+  {
+    "file": "images/rtl_live.png",
+    "bytes": 1096458,
+    "sha256": "3e9ab7fdf1f872e9a2887fd62ee69ef166b333d63dfe420505b24403890c4768"
+  },
+  {
+    "file": "images/rtl_main_menu.png",
+    "bytes": 1097920,
+    "sha256": "9ae08dd8eb5e61753951517923aeca819a515d1bace37c802191dfcf8d5c57e4"
+  },
+  {
+    "file": "images/rtl_manual_light.png",
+    "bytes": 1096287,
+    "sha256": "ec04ae58933fa856a6af74d794b7d5a014bd60d6a9684a8e16f616e42d7a12a3"
+  },
+  {
+    "file": "images/rtl_osd_off.png",
+    "bytes": 1163714,
+    "sha256": "72630e5146641be5da222ffd0b57f3234dc2a48a47e18d2fe662fa207fe344ce"
+  },
+  {
+    "file": "images/rtl_playback.png",
+    "bytes": 1096473,
+    "sha256": "5c5674b397e6a9f0fe5392197c11d377d2e6824b1ff8ac1bfcc08ca686e53fb3"
+  },
+  {
+    "file": "images/scratch_raw.png",
+    "bytes": 2014179,
+    "sha256": "63fdb94c581f4d2726f3c51b8726cbfbf31e6ed8039077fa473b0a461f2bb6f0"
+  },
+  {
+    "file": "images/scratch_zoom_0.png",
+    "bytes": 93265,
+    "sha256": "b96033bad27dd06ba21bfeceda75b0a88dae84586aa98064440ae9981370d2ea"
+  },
+  {
+    "file": "images/video_clip1_07_09.74s.png",
+    "bytes": 2159442,
+    "sha256": "ad6fe8f31ecc026cfbf1afa080cc4d07b6745cf80490d853190815f710fff11e"
+  },
+  {
+    "file": "images/video_clip2_07_11.84s.png",
+    "bytes": 2776292,
+    "sha256": "1f15baa60e754715be57fa2aa0a7ecfea1998521481e1228e48d078d2e6d452c"
+  },
+  {
+    "file": "V26.7与PC1.6技术报告.md",
+    "bytes": 66701,
+    "sha256": "820cbffb2bade8061111c76d0ab1ea1169d80539dbefd3ba801e44949a700e65"
+  },
+  {
+    "file": "V26.7与PC1.6技术报告.pdf",
+    "bytes": 11845569,
+    "sha256": "e82bc79ca2cf47e2d66b9e22272781958e8062a524c144603ae3f7ffe2be4147"
+  },
+  {
+    "file": "图片来源.json",
+    "bytes": 15362,
+    "sha256": "0a3e34516f6e27cbbe41d3d97c32a8307281369bd30f1136f94a425f8ce03f06"
+  },
+  {
+    "file": "图示计算记录.json",
+    "bytes": 665,
+    "sha256": "4a98d738869311109c2e5a1a7ef1fceee8442b9667e28a30948ad807479a66ad"
+  },
+  {
+    "file": "排版页码.json",
+    "bytes": 2965,
+    "sha256": "b7c11a2f7e880b5065a66093c140a2d2f47a873613ee1adfd7c955eab3463ad4"
+  },
+  {
+    "file": "文档校验.json",
+    "bytes": 4678,
+    "sha256": "c09720b7e3f14262b0021b660a9e6cd281ecfe36ef5c5af78910171ba3149870"
+  },
+  {
+    "file": "源码来源.json",
+    "bytes": 5235,
+    "sha256": "002d88f9c471e3971c8ae38e83a3a8b3736272c12ec6f69e82c11e6849a1a9dc"
+  },
+  {
+    "file": "阅读报告.html",
+    "bytes": 79419,
+    "sha256": "88e7aae95cd2b64f5dbeee6e9f29695e8782f93767017336773aee0cb3170ac8"
+  },
+  {
+    "file": "阅读说明.md",
+    "bytes": 1087,
+    "sha256": "07764c51b6dcf63509a534232ab1732e10e90cdf6da13b7de6fbf9eff0cf4a2d"
+  },
+  {
+    "file": "验证摘要/FPGA_AF测试.json",
+    "bytes": 1747,
+    "sha256": "2f7f1d50381215651741bce233cd820decbb7fc73f20179b3df77492df867757"
+  },
+  {
+    "file": "验证摘要/FPGA_AF速度仿真.json",
+    "bytes": 1991,
+    "sha256": "d55dabd1874861121974d498bb1bf8c636779753aba29a67aefe325c3d266c36"
+  },
+  {
+    "file": "验证摘要/FPGA_BMP及FAT.json",
+    "bytes": 818,
+    "sha256": "5100a517562f1391ff714c96899c5d1a258951d047f86924509f958838bcb49c"
+  },
+  {
+    "file": "验证摘要/FPGA_SD引脚模型.json",
+    "bytes": 962,
+    "sha256": "2a8e478dba3ba39798a8e5fa285d8807f1364ea03ca8cf609433ba7b902ac129"
+  },
+  {
+    "file": "验证摘要/FPGA_告警.json",
+    "bytes": 772,
+    "sha256": "fa3a457a6a395caa719321cf2265b257690f4f3ce0313fc9a7e8c1afba20be9d"
+  },
+  {
+    "file": "验证摘要/FPGA_时序资源.json",
+    "bytes": 12744,
+    "sha256": "2e7ae3cf39bc85bb4eb29d520ae59dc5afec135f6948c8db7c4105fbf52b0c90"
+  },
+  {
+    "file": "验证摘要/FPGA_进度.json",
+    "bytes": 576,
+    "sha256": "323ba2bf5e69be0cd5aac90ab89dabafb445ba68ce778110b59a9675da0c994e"
+  },
+  {
+    "file": "验证摘要/PC_EXE回放.json",
+    "bytes": 11103,
+    "sha256": "2b42acf5d54c9e1f7344fc6f83a8437c451beaf0171cc78195deace067a8a454"
+  },
+  {
+    "file": "验证摘要/PC_UI源码审计.json",
+    "bytes": 2582,
+    "sha256": "46d5a890ecfed59e6cca9c6e9541bcdfd6279b4f95df83291079e28a7028ce59"
+  },
+  {
+    "file": "验证摘要/PC_界面几何.json",
+    "bytes": 810,
+    "sha256": "68eddae6f02d5fbcce2527972dfc1b8c92a653389033e5988c19ab3f1aa1a7f9"
+  },
+  {
+    "file": "验证摘要/受控色差实验.json",
+    "bytes": 4102,
+    "sha256": "16a5dbabb69cc600e2bfaa80dfea28a1976a539ff61a85e1d8249615bf90e67c"
+  },
+  {
+    "file": "验证摘要/实拍三帧对比.json",
+    "bytes": 1355,
+    "sha256": "3e354561ab084c3abb3e933a95e9faf8ef645fab62c23f61237dd2df4b9f8ac8"
+  },
+  {
+    "file": "验证摘要/模糊对照.json",
+    "bytes": 2764,
+    "sha256": "965b83fe615ce81975014a912e1556e72439d42d4a7faaaf86eeff19102eb698"
+  }
+]

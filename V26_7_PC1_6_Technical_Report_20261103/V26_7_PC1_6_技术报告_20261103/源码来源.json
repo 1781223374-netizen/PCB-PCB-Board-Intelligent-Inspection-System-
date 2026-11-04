@@ -1,0 +1,102 @@
+[
+  {
+    "id": "S01",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\验证报告.md",
+    "sha256": "ec8c8ff7c12077f72acd0d248f194a3c11ba0a83a65e11d3fdd1d6bb560ef3a1"
+  },
+  {
+    "id": "S02",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\project.json",
+    "sha256": "528ec59e979fb0327685890e8f9b507189b71a7e572fb9775bed50a6fa41869f"
+  },
+  {
+    "id": "S03",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\rtl\\ddr\\smart_camera_ddr_top.v",
+    "sha256": "784e252fa064eb5bffe89330601ff2639ae0cdb07986623cd727ef26e99ba6e0"
+  },
+  {
+    "id": "S04",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\v16\\rtl\\video\\smart_app.v",
+    "sha256": "713b6895193ee1f8baccf3f3bde9205efc668ec8526a8db50dac198601f0de91"
+  },
+  {
+    "id": "S05",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\v16\\rtl\\isp\\vision_core96.v",
+    "sha256": "37189347ac6c4637875b381b25f16b58c04cf335915fbec4b3cb7c4445669b8d"
+  },
+  {
+    "id": "S06",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\v16\\rtl\\photo\\fat32_photo.v",
+    "sha256": "69839282bd991aa263db597b2aefee608781fcd95dbe9f25a591e2d245851c0d"
+  },
+  {
+    "id": "S07",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\rtl\\focus\\focus_controller.v",
+    "sha256": "945a28d0e26e3ea77574495217d4fed9df3cb9838eb5d5d9a27e2d7c2f627a1e"
+  },
+  {
+    "id": "S08",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\验证报告.md",
+    "sha256": "c7b27b198945f57bfdd3f002894b993c8ff2b67189369920f056c184df75ebb3"
+  },
+  {
+    "id": "S09",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\rtl\\network\\camera_ethernet.v",
+    "sha256": "c197439eec1d89f677be499f1e6842ff7e35006274961c8ec10a7ad558c0602f"
+  },
+  {
+    "id": "S10",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\multi_aoi_studio.py",
+    "sha256": "fa2b4b787a6fad810e7d53c30ce56e769a8892e54183159888e60e129fc243fb"
+  },
+  {
+    "id": "S11",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\pcb_aoi_core.py",
+    "sha256": "df6eec445946753463b39e0e31ace60aeda7ff9b5275d16b0123609a3c836263"
+  },
+  {
+    "id": "S12",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\surface_features.py",
+    "sha256": "8c111c21ec31e1624949e5a8cc98e7365c403021ec21bd332f3a4d036c21e425"
+  },
+  {
+    "id": "S13",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\inspection.py",
+    "sha256": "7fbfb8671a40ec99a0e91741a2fd66178fdb19790b203139a18cb11b0ee39a9a"
+  },
+  {
+    "id": "S14",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\image_enhance.py",
+    "sha256": "c5ac5e292d7c6421971c2c47cf1839b914834aac7e10497b92736c6ea19e83a6"
+  },
+  {
+    "id": "S15",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\source\\autofocus.py",
+    "sha256": "1388c00ad5d07f24b1c267fab1fcbc8fe424c85fd26dea1f8f269c95120dbe3c"
+  },
+  {
+    "id": "S16",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\实验报告.md",
+    "sha256": "25a9305bc396ba8c0f4e292d50c4460b0e8d05ee7ad931664614b62a3d1fffa0"
+  },
+  {
+    "id": "S17",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\verification\\exe_checks.json",
+    "sha256": "2b42acf5d54c9e1f7344fc6f83a8437c451beaf0171cc78195deace067a8a454"
+  },
+  {
+    "id": "S18",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_录屏复核_20261023\\复核结论与下一版建议.md",
+    "sha256": "6d5bc6e20fec80314451fcbfac040e2daae4a7481387906e0f7baebb1e927604"
+  },
+  {
+    "id": "S19",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\fpga_project\\review\\final1080\\result.json",
+    "sha256": "2e7ae3cf39bc85bb4eb29d520ae59dc5afec135f6948c8db7c4105fbf52b0c90"
+  },
+  {
+    "id": "S20",
+    "path": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\verification\\ui_source_audit.json",
+    "sha256": "46d5a890ecfed59e6cca9c6e9541bcdfd6279b4f95df83291079e28a7028ce59"
+  }
+]

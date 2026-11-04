@@ -1,0 +1,9 @@
+{
+  "result": "PASS_REVIEWED",
+  "critical_warnings": [
+    "SYN-5114 CRITICAL-WARNING: Implement the large ram \"u_app/osd_video/text_rom/ramread0_syn_22\" may requires 57344 registers which may cause memory issues in ../../../rtl/ui/classic_menu_text.v(1133). Please consider using \"no_ram\" directive.",
+    "DRC RTCLK-5079 CRITICAL-WARNING: Detected clock net \"I_sysclk_dup_1\" driven by clock port utilizes 16 local routing resource(s):",
+    "DRC RTCLK-5079 CRITICAL-WARNING: Detected clock net \"I_sysclk_dup_1\" driven by clock port utilizes 16 local routing resource(s):"
+  ],
+  "note": "Inherited text ROM inference estimate and ref50 local-route clock warning families; final routed timing and every SDC selector verified. Not a warning-free build."
+}

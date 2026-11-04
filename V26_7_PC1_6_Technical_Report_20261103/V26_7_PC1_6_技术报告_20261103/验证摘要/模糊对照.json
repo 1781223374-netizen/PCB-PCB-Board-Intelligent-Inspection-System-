@@ -1,0 +1,110 @@
+{
+  "scope": "fixed geometric registration, matched extra filtering on the existing canonical grayscale pair; not a reconstruction of old Bayer hardware",
+  "results": [
+    {
+      "record": "20261027_214158_fe479be052fc",
+      "filter": "native",
+      "threshold": 41.643,
+      "count": 12,
+      "scratch_area_max": 40.14
+    },
+    {
+      "record": "20261027_214158_fe479be052fc",
+      "filter": "half_area",
+      "threshold": 41.377,
+      "count": 12,
+      "scratch_area_max": 37.74
+    },
+    {
+      "record": "20261027_214158_fe479be052fc",
+      "filter": "blur1",
+      "threshold": 41.331,
+      "count": 12,
+      "scratch_area_max": 37.714
+    },
+    {
+      "record": "20261027_214158_fe479be052fc",
+      "filter": "blur2",
+      "threshold": 41.58,
+      "count": 11,
+      "scratch_area_max": 32.376
+    },
+    {
+      "record": "20261027_214158_fe479be052fc",
+      "filter": "blur3",
+      "threshold": 41.562,
+      "count": 11,
+      "scratch_area_max": 30.158
+    },
+    {
+      "record": "20261027_214242_d70ad7341533",
+      "filter": "native",
+      "threshold": 41.73,
+      "count": 13,
+      "scratch_area_max": 39.935
+    },
+    {
+      "record": "20261027_214242_d70ad7341533",
+      "filter": "half_area",
+      "threshold": 41.48,
+      "count": 13,
+      "scratch_area_max": 37.704
+    },
+    {
+      "record": "20261027_214242_d70ad7341533",
+      "filter": "blur1",
+      "threshold": 41.402,
+      "count": 13,
+      "scratch_area_max": 37.702
+    },
+    {
+      "record": "20261027_214242_d70ad7341533",
+      "filter": "blur2",
+      "threshold": 41.455,
+      "count": 12,
+      "scratch_area_max": 32.809
+    },
+    {
+      "record": "20261027_214242_d70ad7341533",
+      "filter": "blur3",
+      "threshold": 41.278,
+      "count": 12,
+      "scratch_area_max": 27.784
+    },
+    {
+      "record": "20261027_214338_9d8fe560bbd4",
+      "filter": "native",
+      "threshold": 35.785,
+      "count": 9,
+      "scratch_area_max": 24.457
+    },
+    {
+      "record": "20261027_214338_9d8fe560bbd4",
+      "filter": "half_area",
+      "threshold": 34.765,
+      "count": 9,
+      "scratch_area_max": 22.02
+    },
+    {
+      "record": "20261027_214338_9d8fe560bbd4",
+      "filter": "blur1",
+      "threshold": 34.763,
+      "count": 9,
+      "scratch_area_max": 21.816
+    },
+    {
+      "record": "20261027_214338_9d8fe560bbd4",
+      "filter": "blur2",
+      "threshold": 33.141,
+      "count": 11,
+      "scratch_area_max": 19.411
+    },
+    {
+      "record": "20261027_214338_9d8fe560bbd4",
+      "filter": "blur3",
+      "threshold": 31.896,
+      "count": 13,
+      "scratch_area_max": 17.214
+    }
+  ]
+}

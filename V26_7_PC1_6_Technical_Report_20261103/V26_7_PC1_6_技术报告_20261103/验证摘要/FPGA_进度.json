@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "negative_control": false,
+  "summary": [
+    "# PASS        1920x       1080 photo progress:       12151 sectors; every write/read percentage exact; 99 only after 99%, 100 only after successful completion",
+    "# PASS        1280x        720 photo progress:        5401 sectors; every write/read percentage exact; 99 only after 99%, 100 only after successful completion",
+    "# PASS        1024x        600 photo progress:        3601 sectors; every write/read percentage exact; 99 only after 99%, 100 only after successful completion"
+  ]
+}

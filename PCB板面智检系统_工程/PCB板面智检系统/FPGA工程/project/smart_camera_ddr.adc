@@ -1,0 +1,127 @@
+#============================================================================
+# cam_hdmi.adc - image-only build, bench-verified pin map (ASCII only)
+#
+# This is the row-swapped map that was measured WORKING on the bench (V7):
+# HS data on the FEP B row, LP on the A row, HS clock on K18/K19.
+#
+# Measured with mipi_rowswap.bit: all four lanes locked, TAP 53 4F 4A 4C,
+# PEAK 0F 0F 0F 0F, BAD ECC / CRC BAD / TRUNC all zero, 1192 accepted frames,
+# real picture on screen. With the original A-row HS map only L1/L2 ever found
+# a window and no frame was ever accepted, so the A-row HS branch is the faulty
+# one on this card.
+#
+# The HS clock cannot move to the A row: L14 is not clock-capable and TD
+# rejects IOCLK there (PHY-8046), so it stays on K18/K19.
+#
+# B-row balls:  B6/B7 -> N20/M20   B8/B9 -> N18/N19
+#               B10/B11 -> M21/L21   B13/B14 -> K21/K22
+# A-row balls:  A6/A7 -> M15/M16   A8/A9 -> K17/J17
+#               A10/A11 -> L16/K16   A13/A14 -> K13/K14
+#
+# Superseded history below kept for traceability.
+#============================================================================
+
+#============================================================================
+# mipi_rowswap.adc - V7 row-swap experiment (ASCII only; TD reads this file)
+#
+# The only difference from mipi_diagnostics.adc: the four data lanes swap the
+# FEP connector A row and B row for HS and LP.
+#
+# FEP-VID005 brings each lane out on both the A row and the B row (strapped in
+# parallel, both the 100R and the 0R parts fitted). V6 measurements: L1 and L2
+# find stable windows on every cold boot, while L0 and L3 find none across the
+# full 256 codes and both polarities, on three cold boots - yet all four lanes
+# show identical LP11 counts. That is the signature of "LP fine, HS missing".
+#
+# This build moves HS to the B row and LP to the A row. If L0/L3 recover their
+# windows, the A-row HS branch (connector pin, trace, series part, ball) is at
+# fault. If L1/L2 instead get worse, the two rows are not one node and the
+# current "HS on A, LP on B" split is itself the bug.
+#
+# The HS clock does not move: it must sit on a clock-capable pad, TD rejects
+# IOCLK on L14 (PHY-8046), so it stays on K18/K19 on the B row.
+#
+# B-row balls:  B6/B7 -> N20/M20   B8/B9 -> N18/N19
+#               B10/B11 -> M21/L21   B13/B14 -> K21/K22
+# A-row balls:  A6/A7 -> M15/M16   A8/A9 -> K17/J17
+#               A10/A11 -> L16/K16   A13/A14 -> K13/K14
+#============================================================================
+
+set_pin_assignment { I_sysclk } { LOCATION = H4; IOSTANDARD = SSTL135; }
+set_pin_assignment { I_reset_n } { LOCATION = R14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_osd_key_n } { LOCATION = P14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; } # Board KEY2
+set_pin_assignment { I_color_keys_n[0] } { LOCATION = N14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; } # Board KEY3
+set_pin_assignment { I_color_keys_n[1] } { LOCATION = N13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; } # Board KEY4
+set_pin_assignment { O_hdmi_tx_p[0] } { LOCATION = B15; IOSTANDARD = LVDS33_E; }
+set_pin_assignment { O_hdmi_tx_p[1] } { LOCATION = B21; IOSTANDARD = LVDS33_E; }
+set_pin_assignment { O_hdmi_tx_p[2] } { LOCATION = C22; IOSTANDARD = LVDS33_E; }
+set_pin_assignment { O_hdmi_clk_p } { LOCATION = C18; IOSTANDARD = LVDS33_E; }
+
+# HS clock stays on B row K18/K19; it cannot move to L14/L15.
+set_pin_assignment { I_clk_hs_p } { LOCATION = K18; IOSTANDARD = LVDS18; PULLTYPE = NONE; }
+
+# HS data now on the B row
+set_pin_assignment { I_data_hs_p[0] } { LOCATION = N20; IOSTANDARD = LVDS18; PULLTYPE = NONE; DIFFRESISTOR = 100; }  # B6  lane0, was A6 = M15
+set_pin_assignment { I_data_hs_p[1] } { LOCATION = K21; IOSTANDARD = LVDS18; PULLTYPE = NONE; DIFFRESISTOR = 100; }  # B13 lane1, was A13 = K13
+set_pin_assignment { I_data_hs_p[2] } { LOCATION = N18; IOSTANDARD = LVDS18; PULLTYPE = NONE; DIFFRESISTOR = 100; }  # B8  lane2, was A8 = K17
+set_pin_assignment { I_data_hs_p[3] } { LOCATION = M21; IOSTANDARD = LVDS18; PULLTYPE = NONE; DIFFRESISTOR = 100; }  # B10 lane3, was A10 = L16
+
+# LP now on the A row
+set_pin_assignment { I_data_lp_p[0] } { LOCATION = M15; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A6  , was B6  = N20
+set_pin_assignment { I_data_lp_n[0] } { LOCATION = M16; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A7  , was B7  = M20
+set_pin_assignment { I_data_lp_p[1] } { LOCATION = K13; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A13 , was B13 = K21
+set_pin_assignment { I_data_lp_n[1] } { LOCATION = K14; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A14 , was B14 = K22
+set_pin_assignment { I_data_lp_p[2] } { LOCATION = K17; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A8  , was B8  = N18
+set_pin_assignment { I_data_lp_n[2] } { LOCATION = J17; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A9  , was B9  = N19
+set_pin_assignment { I_data_lp_p[3] } { LOCATION = L16; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A10 , was B10 = M21
+set_pin_assignment { I_data_lp_n[3] } { LOCATION = K16; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }  # A11 , was B11 = L21
+
+set_pin_assignment { IO_cam_scl } { LOCATION = N22; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }
+set_pin_assignment { IO_cam_sda } { LOCATION = M22; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }
+set_pin_assignment { O_cam_rst_n } { LOCATION = M18; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }
+set_pin_assignment { O_cam_inck } { LOCATION = L18; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }
+set_pin_assignment { O_fep_power } { LOCATION = H20; IOSTANDARD = LVCMOS18; PULLTYPE = NONE; }
+set_pin_assignment { O_led[0] } { LOCATION = E21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_led[1] } { LOCATION = D21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_led[2] } { LOCATION = E22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_led[3] } { LOCATION = D22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { I_key_n[0] } { LOCATION = G21; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[1] } { LOCATION = G22; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[2] } { LOCATION = D20; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[3] } { LOCATION = C20; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[4] } { LOCATION = F18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[5] } { LOCATION = E18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[6] } { LOCATION = F16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key_n[7] } { LOCATION = E17; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+# On-board TF and external light enable; unchanged from the original full app.
+set_pin_assignment { I_sd_miso } { LOCATION = V17; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { O_sd_cs_n } { LOCATION = AB20; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_sd_sck } { LOCATION = W17; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_sd_mosi } { LOCATION = AA19; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_light } { LOCATION = D17; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { O_servo_pwm } { LOCATION = F19; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 4; PULLTYPE = PULLDOWN; } # CEP pin9, external servo supply, common GND.
+
+
+set_pin_assignment	{ O_phy_rst }	{ LOCATION = U17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ I_a_rgmii_rx_ctl }	{ LOCATION = V18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_a_rgmii_rxc }	    { LOCATION = W19; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_a_rgmii_rxd[0] }	{ LOCATION = V19; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_a_rgmii_rxd[1] }	{ LOCATION = W20; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_a_rgmii_rxd[2] }	{ LOCATION = AA20; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_a_rgmii_rxd[3] }	{ LOCATION = AA21; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ O_a_rgmii_tx_ctl }	{ LOCATION = AB22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_a_rgmii_txc }	    { LOCATION = AB21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_a_rgmii_txd[0] }	{ LOCATION = W21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_a_rgmii_txd[1] }	{ LOCATION = W22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_a_rgmii_txd[2] }	{ LOCATION = Y21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_a_rgmii_txd[3] }	{ LOCATION = Y22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+
+##ETHB
+	
+
+# V24 external active-low buzzer, J7 CEP pin 25 (not audio pins).
+set_pin_assignment { O_buzzer_n } { LOCATION = C14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; DRIVESTRENGTH = 4; }
+

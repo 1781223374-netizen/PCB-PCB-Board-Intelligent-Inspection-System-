@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:designConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>designConfig_ddrmc_x32</ipxact:name>
+    <ipxact:version>1.2</ipxact:version>
+    <ipxact:viewConfiguration>
+        <ipxact:instanceName>ph1p_ddrmc_wrapper_ddrmc_x32_Inst</ipxact:instanceName>
+        <ipxact:view viewRef="DDRMC"/>
+    </ipxact:viewConfiguration>
+    <ipxact:vendorExtensions>
+        <anlogic:displayname>MIS - DDR2/DDR3/DDR4</anlogic:displayname>
+        <anlogic:ipGenVersion value="189136 2026/01/26">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:designConfiguration>

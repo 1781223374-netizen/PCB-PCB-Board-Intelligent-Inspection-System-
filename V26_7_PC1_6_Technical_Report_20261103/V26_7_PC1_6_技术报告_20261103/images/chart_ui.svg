@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="507.27559055118115" height="180" preserveAspectRatio="xMinYMin meet" viewBox="0 0 507 180" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="507.27559055118115" height="180"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-180)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="95" y="55" width="181.66153846153844" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="0" y="65" style="font-family: YaHei; font-size: 10px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,130) scale(1,-1)">原界面</text>
+			<text x="281.66153846153844" y="65" style="font-family: YaHei; font-size: 10px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,130) scale(1,-1)">328</text>
+			<rect x="95" y="110" width="327.8769230769231" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="0" y="120" style="font-family: YaHei; font-size: 10px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,240) scale(1,-1)">PC 1.6</text>
+			<text x="427.8769230769231" y="120" style="font-family: YaHei; font-size: 10px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,240) scale(1,-1)">592</text>
+			<text x="95" y="20" style="font-family: YaHei; font-size: 9px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,40) scale(1,-1)">预览框高度 逻辑像素</text>
+		</g>
+	</g>
+</svg>

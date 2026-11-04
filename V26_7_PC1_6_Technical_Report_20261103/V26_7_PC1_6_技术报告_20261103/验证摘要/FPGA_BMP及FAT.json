@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "hardware_tested": false,
+  "scope": "actual FAT32/sector RAM/BMP decoder; logical card transport model",
+  "summary": [
+    "# PASS full        1920x       1080 FAT32 photo write:     6220854 bytes,       12151 sectors, two FAT mirrors, exact payload, successful directory commit",
+    "# PASS full        1920x       1080 FAT32 playback:     1036800 exact RGB565 word addresses including high rows; file number and progress correct"
+  ],
+  "source_hashes": {
+    "v16\\rtl\\photo\\fat32_photo.v": "69839282bd991aa263db597b2aefee608781fcd95dbe9f25a591e2d245851c0d",
+    "v16\\rtl\\photo\\playback_rgb565.v": "bb7cf8a5f248dcf62e4789f4c0a5987df60d5ede2188bbf1cb64622c166d6027",
+    "sim\\tb_photo1080_fat.sv": "977c3b82f64ce3c99075c97fd0913e7522e4d4024f77744ec27b17fcda565bed"
+  }
+}

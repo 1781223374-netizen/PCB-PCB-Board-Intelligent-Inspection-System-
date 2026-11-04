@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "scope": "UI-only edits against delivered1.5; all detection,network,servo andworker files byte-identical; existing behavior methods AST-identical except explicit layout/window/paint/text methods",
+  "changed": [
+    "multi_aoi_studio.py",
+    "pcb_aoi_studio.py"
+  ],
+  "changed_methods": {
+    "multi_aoi_studio.py": [
+      "ChannelStudio.__init__",
+      "MultiStudio.__init__"
+    ],
+    "pcb_aoi_studio.py": [
+      "ImageView.paintEvent",
+      "Studio.__init__",
+      "Studio._build_ui",
+      "Studio.refresh_controls"
+    ]
+  },
+  "unchanged": [
+    "aoi_link.py",
+    "aoi_protocol.py",
+    "autofocus.py",
+    "camera_core.py",
+    "cooperative_link.py",
+    "detection_worker.py",
+    "focus_panel.py",
+    "focus_protocol.py",
+    "image_enhance.py",
+    "inspection.py",
+    "launch_multicam.py",
+    "multi_receiver.py",
+    "network_setup.py",
+    "pcb_aoi_core.py",
+    "surface_features.py"
+  ],
+  "source_hashes": {
+    "aoi_link.py": "1b0bd3e276e7e5a937e4e322a153d62669b9f8b116774d3771f3e31bb3c42a16",
+    "aoi_protocol.py": "8de8a0b57d504f45f69babec8a4757e26ac92092d52c2a40dc02dd5130e38a2f",
+    "autofocus.py": "1388c00ad5d07f24b1c267fab1fcbc8fe424c85fd26dea1f8f269c95120dbe3c",
+    "camera_core.py": "ada24f471e46f15eb405ab5cd03806b67b2ce8f194f46128577b6c07a68f703b",
+    "cooperative_link.py": "35876185d1e9980722b8e52f4541dfdb6247d2da873dbe211e5dfceced9316b9",
+    "detection_worker.py": "76bb4b322d32529c7e81bbfb1f574ed69a4d7f129afb6c1fb0fed5c825d51264",
+    "focus_panel.py": "33294b28e532e1c2d908a173a4ad84ae417e3cf6eb16b79b8619d4ea9056c528",
+    "focus_protocol.py": "e9c40afaf79e5dabb7ea54426f99ee7228031a87f84ce2f1a355a439609892a3",
+    "image_enhance.py": "c5ac5e292d7c6421971c2c47cf1839b914834aac7e10497b92736c6ea19e83a6",
+    "inspection.py": "7fbfb8671a40ec99a0e91741a2fd66178fdb19790b203139a18cb11b0ee39a9a",
+    "launch_multicam.py": "8eeba7de5d307560c704e201422e2a85ac5fdf647ad93eef766ff0688dc43117",
+    "multi_aoi_studio.py": "fa2b4b787a6fad810e7d53c30ce56e769a8892e54183159888e60e129fc243fb",
+    "multi_receiver.py": "18abfb66f0427e281e0777244c949775f4aa4f12c408337cedccefa9f3c06ecd",
+    "network_setup.py": "66be30f68f5891b0486ddbc331ec73540c34fb692733b4b0a39958b22848f4eb",
+    "pcb_aoi_core.py": "df6eec445946753463b39e0e31ace60aeda7ff9b5275d16b0123609a3c836263",
+    "pcb_aoi_studio.py": "c4ebaaafa88f93183093d799c7fb605b0ba7552d4a747fcc450a9c4440512c13",
+    "surface_features.py": "8c111c21ec31e1624949e5a8cc98e7365c403021ec21bd332f3a4d036c21e425"
+  }
+}

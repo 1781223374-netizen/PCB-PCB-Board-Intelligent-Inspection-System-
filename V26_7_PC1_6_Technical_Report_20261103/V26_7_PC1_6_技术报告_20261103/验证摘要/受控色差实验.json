@@ -1,0 +1,179 @@
+{
+  "scope": "controlled image transformations; not photographed independent defects; random positions chosen from material mask, seed7913",
+  "results": [
+    {
+      "name": "unchanged",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 0,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "metal_gray",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 0,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "metal_bright",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 23,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "green_dark_dots",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 8,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "green_shade",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 0,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "combined",
+      "truth": "permitted_color_variation",
+      "baseline_candidates": 6,
+      "surface_lines": 0,
+      "surface_patches": 0
+    },
+    {
+      "name": "injected_line_0",
+      "truth": "simulated_bright_line",
+      "length": 24,
+      "width": 1,
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_line_1",
+      "truth": "simulated_bright_line",
+      "length": 40,
+      "width": 1,
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_line_2",
+      "truth": "simulated_bright_line",
+      "length": 60,
+      "width": 1,
+      "hit": true,
+      "count": 1
+    },
+    {
+      "name": "injected_line_3",
+      "truth": "simulated_bright_line",
+      "length": 24,
+      "width": 2,
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_line_4",
+      "truth": "simulated_bright_line",
+      "length": 40,
+      "width": 2,
+      "hit": true,
+      "count": 3
+    },
+    {
+      "name": "injected_line_5",
+      "truth": "simulated_bright_line",
+      "length": 60,
+      "width": 2,
+      "hit": true,
+      "count": 3
+    },
+    {
+      "name": "injected_line_6",
+      "truth": "simulated_bright_line",
+      "length": 24,
+      "width": 3,
+      "hit": true,
+      "count": 3
+    },
+    {
+      "name": "injected_line_7",
+      "truth": "simulated_bright_line",
+      "length": 40,
+      "width": 3,
+      "hit": true,
+      "count": 3
+    },
+    {
+      "name": "injected_line_8",
+      "truth": "simulated_bright_line",
+      "length": 60,
+      "width": 3,
+      "hit": true,
+      "count": 1
+    },
+    {
+      "name": "injected_line_9",
+      "truth": "simulated_bright_line",
+      "length": 24,
+      "width": 1,
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_line_10",
+      "truth": "simulated_bright_line",
+      "length": 40,
+      "width": 1,
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_line_11",
+      "truth": "simulated_bright_line",
+      "length": 60,
+      "width": 1,
+      "hit": true,
+      "count": 4
+    },
+    {
+      "name": "injected_material_0",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_material_1",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 1
+    },
+    {
+      "name": "injected_material_2",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_material_3",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 1
+    },
+    {
+      "name": "injected_material_4",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 2
+    },
+    {
+      "name": "injected_material_5",
+      "truth": "simulated_cross_material_object",
+      "hit": true,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "record": "20261027_214158_fe479be052fc",
+    "legacy": 12,
+    "surface": 1,
+    "surface_info": {
+      "mode": "green_surface_v1",
+      "holes": 4,
+      "legacy_reference": true,
+      "normal_groups": 0,
+      "line_count": 1,
+      "material_count": 0,
+      "small_count": 0,
+      "color_policy": "green shade and yellow/grey metal variations are not standalone NG evidence",
+      "structure_tolerance": 2
+    }
+  },
+  {
+    "record": "20261027_214242_d70ad7341533",
+    "legacy": 13,
+    "surface": 1,
+    "surface_info": {
+      "mode": "green_surface_v1",
+      "holes": 4,
+      "legacy_reference": true,
+      "normal_groups": 0,
+      "line_count": 1,
+      "material_count": 0,
+      "small_count": 0,
+      "color_policy": "green shade and yellow/grey metal variations are not standalone NG evidence",
+      "structure_tolerance": 2
+    }
+  },
+  {
+    "record": "20261027_214338_9d8fe560bbd4",
+    "legacy": 9,
+    "surface": 0,
+    "surface_info": {
+      "mode": "green_surface_v1",
+      "holes": 4,
+      "legacy_reference": true,
+      "normal_groups": 0,
+      "line_count": 0,
+      "material_count": 0,
+      "small_count": 0,
+      "color_policy": "green shade and yellow/grey metal variations are not standalone NG evidence",
+      "structure_tolerance": 2
+    }
+  }
+]

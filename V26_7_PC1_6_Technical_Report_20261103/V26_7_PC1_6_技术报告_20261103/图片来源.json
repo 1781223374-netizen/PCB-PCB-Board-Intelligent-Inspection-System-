@@ -1,0 +1,329 @@
+[
+  {
+    "file": "01_pc16_live.png",
+    "source": "C:\\Users\\84291\\Pictures\\Screenshots\\屏幕截图 2026-11-02 225735.png",
+    "source_sha256": "ef4d25450c910889d2a49f1e550d2fa146e4da94fd0bf83e55516dbf24151883",
+    "kind": "实拍收图截图",
+    "description": "PC1.6单路1920×1080实时预览；截图显示2fps。截图不能单独确认所烧录FPGA版本。",
+    "crop": null
+  },
+  {
+    "file": "02_pc16_color.png",
+    "source": "C:\\Users\\84291\\Pictures\\Screenshots\\屏幕截图 2026-11-03 104707.png",
+    "source_sha256": "d620ec3a092493f970224b7b43dc35196ebd4dc90eb4e468b88edf6788d82c51",
+    "kind": "实拍收图截图",
+    "description": "PC1.6颜色兼容页；图中参数为用户当时设置，不是出厂默认。",
+    "crop": [
+      0,
+      0,
+      2880,
+      1690
+    ]
+  },
+  {
+    "file": "03_pc16_invalid.png",
+    "source": "C:\\Users\\84291\\Pictures\\Screenshots\\屏幕截图 2026-11-02 233538.png",
+    "source_sha256": "1e36cf2540abd3dcbe1feeff4aeb89e809d79c0159a62f33205aba414832c701",
+    "kind": "实拍收图截图",
+    "description": "倾斜摆放与无效检测界面，不能作为合格率统计。",
+    "crop": [
+      0,
+      0,
+      2880,
+      1690
+    ]
+  },
+  {
+    "file": "04_legacy_false.png",
+    "source": "C:\\Users\\84291\\Pictures\\Screenshots\\屏幕截图 2026-10-27 214247.png",
+    "source_sha256": "ad92bb1b49f200132695eb2e1cf39bfa4ebb00af5d6b4187341c18d3f1d72580",
+    "kind": "历史实拍检测截图",
+    "description": "历史PC1.2划痕板多处误报；真实划痕位置由用户确认。",
+    "crop": null
+  },
+  {
+    "file": "05_fpga_old_actual.png",
+    "source": "C:\\Users\\84291\\Desktop\\capture_storage.png",
+    "source_sha256": "b7d473a2357cc0f60b3aeee73af08b4b3dfc769ad68e3b1b12d7cc7393e5ae8e",
+    "kind": "用户提供的历史界面参考",
+    "description": "V26.6.1菜单简化前，红框为用户要求删去区域；采集方式未核实，不作为上板实拍证明。",
+    "crop": null
+  },
+  {
+    "file": "rtl_main_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\main_menu.png",
+    "source_sha256": "9ae08dd8eb5e61753951517923aeca819a515d1bace37c802191dfcf8d5c57e4",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_main_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\main_menu.png",
+    "source_sha256": "9ae08dd8eb5e61753951517923aeca819a515d1bace37c802191dfcf8d5c57e4",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_live.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\live.png",
+    "source_sha256": "3e9ab7fdf1f872e9a2887fd62ee69ef166b333d63dfe420505b24403890c4768",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "rtl_capture_storage.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\capture_storage.png",
+    "source_sha256": "cc6855661383213b5432eb6ffc44f5776b105aac94e763ae3c65144523012f7b",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_capture_storage.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\capture_storage.png",
+    "source_sha256": "cc6855661383213b5432eb6ffc44f5776b105aac94e763ae3c65144523012f7b",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_playback.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\playback.png",
+    "source_sha256": "5c5674b397e6a9f0fe5392197c11d377d2e6824b1ff8ac1bfcc08ca686e53fb3",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "rtl_manual_light.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\manual_light.png",
+    "source_sha256": "ec04ae58933fa856a6af74d794b7d5a014bd60d6a9684a8e16f616e42d7a12a3",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_manual_light.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\manual_light.png",
+    "source_sha256": "ec04ae58933fa856a6af74d794b7d5a014bd60d6a9684a8e16f616e42d7a12a3",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_display_settings.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\display_settings.png",
+    "source_sha256": "23efb824493286d90f4d2a0ca66db061c966b69521d7dd69fce7b8623c6d9317",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_display_settings.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\display_settings.png",
+    "source_sha256": "23efb824493286d90f4d2a0ca66db061c966b69521d7dd69fce7b8623c6d9317",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_image_algorithms.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\image_algorithms.png",
+    "source_sha256": "368b7a2c693dfe6430dc6b8cd9e1c71c60951444b9a72b172edac701fefff081",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_image_algorithms.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\image_algorithms.png",
+    "source_sha256": "368b7a2c693dfe6430dc6b8cd9e1c71c60951444b9a72b172edac701fefff081",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_lift_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\lift_menu.png",
+    "source_sha256": "8c4c1771cb9d2ab5272a623c3db1d51eee8130beaee47ba03050b3d71c05e276",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_lift_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\lift_menu.png",
+    "source_sha256": "8c4c1771cb9d2ab5272a623c3db1d51eee8130beaee47ba03050b3d71c05e276",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_focus_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\focus_menu.png",
+    "source_sha256": "0de16540103a919b8163242c3d79e79032a91f8ea027ab6b305cc5b8469c75fa",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "menu_focus_menu.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\focus_menu.png",
+    "source_sha256": "0de16540103a919b8163242c3d79e79032a91f8ea027ab6b305cc5b8469c75fa",
+    "kind": "V26.7 RTL菜单裁图",
+    "description": "从RTL渲染图裁取菜单区域。",
+    "crop": [
+      1350,
+      134,
+      1912,
+      650
+    ]
+  },
+  {
+    "file": "rtl_osd_off.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\Smart_Camera_V26_7_FastUI_AFSD_20261102\\preview\\osd_off.png",
+    "source_sha256": "72630e5146641be5da222ffd0b57f3234dc2a48a47e18d2fe662fa207fe344ce",
+    "kind": "V26.7 RTL界面渲染",
+    "description": "实际RTL输出叠加既有PCB背景；状态和文件号由测试激励设置，不是上板测得。",
+    "crop": null
+  },
+  {
+    "file": "compare_scratch_a.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\experiments\\实拍同帧对比.png",
+    "source_sha256": "703f0eadbeba8b96e3320da32bf46b83ec1fcaabf05e8ee6675c5708e591a71c",
+    "kind": "实拍原始帧算法回放对比",
+    "description": "同帧相同几何配准，左为传统差分，右为颜色兼容；属于开发样本。",
+    "crop": [
+      0,
+      100,
+      1600,
+      537
+    ],
+    "operation": "裁取两幅完整成像区域；重新排版标题和帧标签；不改变照片或检测框像素"
+  },
+  {
+    "file": "compare_scratch_b.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\experiments\\实拍同帧对比.png",
+    "source_sha256": "703f0eadbeba8b96e3320da32bf46b83ec1fcaabf05e8ee6675c5708e591a71c",
+    "kind": "实拍原始帧算法回放对比",
+    "description": "同帧相同几何配准，左为传统差分，右为颜色兼容；属于开发样本。",
+    "crop": [
+      0,
+      600,
+      1600,
+      1037
+    ],
+    "operation": "裁取两幅完整成像区域；重新排版标题和帧标签；不改变照片或检测框像素"
+  },
+  {
+    "file": "compare_normal.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\experiments\\实拍同帧对比.png",
+    "source_sha256": "703f0eadbeba8b96e3320da32bf46b83ec1fcaabf05e8ee6675c5708e591a71c",
+    "kind": "实拍原始帧算法回放对比",
+    "description": "同帧相同几何配准，左为传统差分，右为颜色兼容；属于开发样本。",
+    "crop": [
+      0,
+      1100,
+      1600,
+      1537
+    ],
+    "operation": "裁取两幅完整成像区域；重新排版标题和帧标签；不改变照片或检测框像素"
+  },
+  {
+    "file": "comparison_original.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\experiments\\实拍同帧对比.png",
+    "source_sha256": "703f0eadbeba8b96e3320da32bf46b83ec1fcaabf05e8ee6675c5708e591a71c",
+    "kind": "原始实验对照图",
+    "description": "完整三帧对照原图，供与报告单帧重新排版图核对。",
+    "crop": null
+  },
+  {
+    "file": "controlled_color.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_3_Surface_20261027\\experiments\\受控色差示例.png",
+    "source_sha256": "07b26c1b32c4083826dfa2e6d9f736b5aa8e554a0c227e095fb12430896646b7",
+    "kind": "人工受控图像实验",
+    "description": "对实拍底图进行人工颜色变换；不属于真实独立缺陷。",
+    "crop": null
+  },
+  {
+    "file": "scratch_raw.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\examples\\回放划痕.png",
+    "source_sha256": "63fdb94c581f4d2726f3c51b8726cbfbf31e6ed8039077fa473b0a461f2bb6f0",
+    "kind": "实拍保存原始帧",
+    "description": "历史实拍划痕帧，供SCAM回放测试。",
+    "crop": null
+  },
+  {
+    "file": "normal_raw.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\examples\\回放正常.png",
+    "source_sha256": "20f4745f9109df7c39965da6c391fa186791cc03f182810c4d18762dc2d15b78",
+    "kind": "实拍保存原始帧",
+    "description": "历史实拍正常帧，供SCAM回放测试。",
+    "crop": null
+  },
+  {
+    "file": "pc16_three_replay.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\pc_app\\verification\\exe_1793628505011066400\\concurrent\\screen.png",
+    "source_sha256": "bec5e9fe4b5858656fb3bbf48e09f6e79ffaf71751ce491571b177ddb063fbc9",
+    "kind": "PC1.6 EXE本机回放",
+    "description": "实际打包EXE三通道回放；127.0.0.1，不是三台开发板无线实测。",
+    "crop": null
+  },
+  {
+    "file": "pc16_expanded.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_Studio_1_6_Compact_20261102\\preview\\expanded_1440x852.png",
+    "source_sha256": "f55442950f671c873d1299daeb4dc28c2a15f0e9c87cc2dc00e58d71a49a9ad1",
+    "kind": "PC1.6离线界面渲染",
+    "description": "同一实拍样例填入界面以验证布局，不代表实时连接。",
+    "crop": null
+  },
+  {
+    "file": "video_clip1_07_09.74s.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_录屏复核_20261023\\clip1_07_09.74s.png",
+    "source_sha256": "ad6fe8f31ecc026cfbf1afa080cc4d07b6745cf80490d853190815f710fff11e",
+    "kind": "历史录屏实拍帧",
+    "description": "用户确认两段为不同板：第一段一异物加一划痕，第二段一异物。旧版算法演示。",
+    "crop": null
+  },
+  {
+    "file": "video_clip2_07_11.84s.png",
+    "source": "C:\\Users\\84291\\Documents\\Codex\\2026-10-22\\zh\\outputs\\PCB_AOI_录屏复核_20261023\\clip2_07_11.84s.png",
+    "source_sha256": "1f15baa60e754715be57fa2aa0a7ecfea1998521481e1228e48d078d2e6d452c",
+    "kind": "历史录屏实拍帧",
+    "description": "用户确认两段为不同板：第一段一异物加一划痕，第二段一异物。旧版算法演示。",
+    "crop": null
+  }
+]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="507.27559055118115" height="180" preserveAspectRatio="xMinYMin meet" viewBox="0 0 507 180" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="507.27559055118115" height="180"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-180)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 40,34 L 497.275591,34 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="31.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,62) scale(1,-1)">0</text>
+			<path d="M 40,56 L 497.275591,56 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="53.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,106) scale(1,-1)">10</text>
+			<path d="M 40,78 L 497.275591,78 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="75.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,150) scale(1,-1)">20</text>
+			<path d="M 40,100 L 497.275591,100 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="97.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,194) scale(1,-1)">30</text>
+			<path d="M 40,122 L 497.275591,122 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="119.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,238) scale(1,-1)">40</text>
+			<path d="M 40,144 L 497.275591,144 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="12" y="141.0" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,282) scale(1,-1)">50</text>
+			<rect x="60" y="34" width="21" height="109.6326" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="62.5" y="147.6326" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,295) scale(1,-1)">49.8</text>
+			<rect x="84" y="34" width="21" height="62.5086" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="86.5" y="100.5086" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,201) scale(1,-1)">28.4</text>
+			<text x="72.962890625" y="18" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,36) scale(1,-1)">810</text>
+			<rect x="146" y="34" width="21" height="108.00460000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="148.5" y="146.0046" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,292) scale(1,-1)">49.1</text>
+			<rect x="170" y="34" width="21" height="60.8806" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="172.5" y="98.8806" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,197) scale(1,-1)">27.7</text>
+			<text x="158.962890625" y="18" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,36) scale(1,-1)">995</text>
+			<rect x="232" y="34" width="21" height="103.82459999999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="234.5" y="141.82459999999998" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,283) scale(1,-1)">47.2</text>
+			<rect x="256" y="34" width="21" height="56.70060000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="258.5" y="94.70060000000001" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,189) scale(1,-1)">25.8</text>
+			<text x="242.6171875" y="18" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,36) scale(1,-1)">1470</text>
+			<rect x="318" y="34" width="21" height="100.61259999999999" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="320.5" y="138.6126" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,277) scale(1,-1)">45.7</text>
+			<rect x="342" y="34" width="21" height="53.48859999999999" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="344.5" y="91.48859999999999" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,182) scale(1,-1)">24.3</text>
+			<text x="328.6171875" y="18" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,36) scale(1,-1)">1835</text>
+			<rect x="404" y="34" width="21" height="97.5326" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="406.5" y="135.5326" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,271) scale(1,-1)">44.3</text>
+			<rect x="428" y="34" width="21" height="50.40860000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="430.5" y="88.4086" style="font-family: YaHei; font-size: 7.5px;fill: rgb(8%,18%,28%); stroke:none;" transform="translate(0,176) scale(1,-1)">22.9</text>
+			<text x="414.6171875" y="18" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,36) scale(1,-1)">2185</text>
+			<text x="0" y="170" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,340) scale(1,-1)">秒</text>
+			<text x="370" y="3" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,6) scale(1,-1)">模拟峰值 µs</text>
+			<rect x="280" y="166" width="9" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,66%,73%); fill-rule: evenodd;"/>
+			<text x="295" y="166" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,332) scale(1,-1)">原版</text>
+			<rect x="350" y="166" width="9" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,52%); fill-rule: evenodd;"/>
+			<text x="365" y="166" style="font-family: YaHei; font-size: 8px;fill: rgb(32%,41%,49%); stroke:none;" transform="translate(0,332) scale(1,-1)">V26.7</text>
+		</g>
+	</g>
+</svg>
